@@ -60,7 +60,7 @@ with tab1:
         st.write("It is able to differentiate 4 different catagories of corn images: blight, rust, gray spot, and healthy corn.")
         #can continue for more description
         ##################################
-        #st.write("")
+        st.write("The model is performing well")
 
         #can chnage the subheader as you wish
         st.subheader("Sample Images...")
