@@ -36,7 +36,6 @@ def prediction(modelname, sample_image, IMG_SIZE = (224,224)):
         img4 = preprocess_input(img3)
 
         prediction = load_model.predict(img4)
-        st.write(prediction)
         return labels[int(np.argmax(prediction))]
 
     except Exception as e:
