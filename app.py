@@ -72,7 +72,7 @@ with tab1:
             with st.expander("📝 Explanation"):
                 #description about the image
                 ###########################
-                st.write("Details of the image")
+                st.write("Corn Blight is a disease spreading among corns")
         with col2:
             st.image(image_resizer("Corn_Blight.jpeg", "Corn_Common_Rust.jpg"), caption = "Common Rust Corns")
             #explanation of the image
