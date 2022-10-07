@@ -9,7 +9,7 @@ from keras.applications.resnet import preprocess_input
 def image_resizer(image1, image2):
   #first image
   #second image will be resized bbased on image1 dimension
-  img1 = Image.Open(image1)
+  img1 = Image.open(image1)
   size1 = img1.size[0]
   size2 = img1.size[1]
 
